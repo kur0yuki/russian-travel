@@ -1,0 +1,9 @@
+.page__subtitle {
+  margin: 32px 0 64px;
+  width: 50%;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  text-align: center;
+}

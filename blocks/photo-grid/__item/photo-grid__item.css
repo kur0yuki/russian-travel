@@ -1,0 +1,5 @@
+.photo-grid__item {
+  width: calc((92.5vw - 48px)/4);
+  background-color: white;
+  height: 213px;
+}

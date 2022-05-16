@@ -1,0 +1,10 @@
+.page__title {
+  margin: 56px 0 0;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+
+  text-align: center;
+  width: 56%;
+}
