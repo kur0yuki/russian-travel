@@ -1,0 +1,7 @@
+.cover {
+  width: calc(100vw - 96px);
+  height: calc((100vw - 96px) * 0.625);
+  background-image: url("../../images/__background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
