@@ -1,6 +1,5 @@
 .topbar {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  height: 52px;/*TODO: media*/
+  width: 100%;
 }

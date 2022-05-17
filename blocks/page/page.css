@@ -5,6 +5,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 28px 0 24px; /*TODO 28px 48px 24px*/
+  padding: 28px 48px 24px;
 }
-

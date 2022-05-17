@@ -6,5 +6,5 @@
   /* or 104% */
 
   text-align: center;
-  width: 56%;
+  max-width: 720px;
 }

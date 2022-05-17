@@ -1,5 +1,7 @@
 .illustration {
-  width: 77%;
+  width: calc(100%);
+  padding: 0 100px;
+  box-sizing: border-box;
 }
 
 .illustration__image{

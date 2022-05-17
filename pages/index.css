@@ -2,15 +2,15 @@
 @import url("../vendor/normalize.css");
 
 @import url("../blocks/page/page.css");
+@import url("../blocks/page/__title/header__title.css");
+@import url("../blocks/page/__subtitle/header__subtitle.css");
 
 @import url("../blocks/topbar/topbar.css");
 @import url("../blocks/topbar/__lang/topbar__lang.css");
 @import url("../blocks/topbar/__lang-link/topbar__lang-link.css");
 @import url("../blocks/topbar/__lang-link/_active/topbar__lang-link_active.css");
 
-@import url("../blocks/header/header.css");
-@import url("../blocks/page/__title/header__title.css");
-@import url("../blocks/page/__subtitle/header__subtitle.css");
+
 @import url("../blocks/illustration/illustration.css");
 @import url("../blocks/illustration/__caption/illustration__caption.css");
 
@@ -42,5 +42,6 @@
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 
 
-
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
+@import url("../blocks/footer/__link/footer__link.css");
