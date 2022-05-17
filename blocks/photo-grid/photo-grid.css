@@ -1,8 +1,7 @@
 .photo-grid{
-  display: flex;
+  display: grid;
   gap:16px;
   width: 92.5%;
-  flex-flow: row wrap;
-  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
   padding: 92px 0;
 }
