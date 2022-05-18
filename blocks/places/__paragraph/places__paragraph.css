@@ -1,9 +1,9 @@
-.places__paragraph{
-margin: 0 0 12px;
+.places__paragraph {
+  margin: 0 0 12px;
   font-size: 18px;
-line-height: 163%;
+  line-height: 1.63;
 }
 
-.places__paragraph:last-child{
+.places__paragraph:last-child {
   margin: 0;
 }

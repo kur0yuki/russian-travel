@@ -1,9 +1,8 @@
 .page__subtitle {
   margin: 32px 0 64px;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-  /* or 120% */
+  font-size: 1.8rem;
+  line-height: 1.2;
   text-align: center;
   max-width: 640px;
 

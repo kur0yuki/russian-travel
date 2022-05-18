@@ -1,8 +1,7 @@
-.places__link{
+.places__link {
   font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
+  line-height: 1.2;
 
-text-decoration-line: underline;
+  text-decoration-line: underline;
 
 }
