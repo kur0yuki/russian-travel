@@ -1,11 +1,17 @@
 .illustration {
-  width: calc(100%);
+  width: 100%;
   padding: 0 100px;
   box-sizing: border-box;
 }
 
-.illustration__image {
-  width: 100%;
+@media screen and (max-width: 1280px){
+  .illustration {
+    padding: 0;
+  }
 }
 
-/* todo */
+@media screen and (max-width: 1024px){
+  .illustration {
+    width: 100vw;
+  }
+}

@@ -6,13 +6,12 @@
   <title>Путешествия по России</title>
   <link href="pages/index.css" rel="stylesheet">
 </head>
-<body>
-<div class="page">
-  <nav class="topbar">
-    <img alt="логотип" class="topbar__logo" src="images/logo.svg">
-    <ul class="topbar__lang">
-      <li class="topbar__lang-link topbar__lang-link_active">Ru</li><!--TODO: make links-->
-      <li class="topbar__lang-link">En</li>
+<body class="page">
+  <nav class="top-bar">
+    <img alt="логотип" class="top-bar__logo" src="images/logo.svg">
+    <ul class="top-bar__lang">
+      <li class="top-bar__lang-link top-bar__lang-link_active"><a class="simple-link" href="#">Ru</a></li><!--TODO: make links-->
+      <li class="top-bar__lang-link"><a class="simple-link" href="#">En</a></li>
     </ul>
   </nav>
   <h1 class="page__title">Путешествия по России</h1>
@@ -57,7 +56,7 @@
       <h3 class="places__title">Куршская коса</h3>
       <div class="places__url">
         <p class="places__url-heading">Url</p>
-        <a class="places__link">park-kosa.ru</a></div>
+        <a class="places__link simple-link" href="http://park-kosa.ru">park-kosa.ru</a></div>
       <img alt="" class="places__image" src="images/kosa.jpg">
       <div class="places__text">
         <p class="places__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -73,7 +72,7 @@
       <h3 class="places__title">Кольский</h3>
       <div class="places__url">
         <p class="places__url-heading">Url</p>
-        <a class="places__link">National Geographic</a>
+        <a class="places__link simple-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
       </div>
       <img alt="" class="places__image" src="images/kosa.jpg">
       <div class="places__text">
@@ -91,7 +90,7 @@
       <h3 class="places__title">Алтай</h3>
       <div class="places__url">
         <p class="places__url-heading">Url</p>
-        <a class="places__link">Facebook</a>
+        <a class="places__link simple-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
       </div>
       <img alt="" class="places__image" src="images/kosa.jpg">
       <div class="places__text">
@@ -108,7 +107,7 @@
       <h3 class="places__title">Зимний Байкал</h3>
       <div class="places__url">
         <p class="places__url-heading">Url</p>
-        <a class="places__link">https://vk.com/baikalmile</a></div>
+        <a class="places__link simple-link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a></div>
       <img alt="" class="places__image" src="images/kosa.jpg">
       <div class="places__text">
         <p class="places__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -124,7 +123,7 @@
       <h3 class="places__title">Карелия</h3>
       <div class="places__url">
         <p class="places__url-heading">Url</p>
-        <a class="places__link">http://vodlozero.ru/</a>
+        <a class="places__link simple-link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
       </div>
       <img alt="" class="places__image" src="images/kosa.jpg">
       <div class="places__text">
@@ -138,23 +137,22 @@
     </article>
     <!--todo edit pics links-->
   </section>
-  <div class="cover">
+  <a class="cover simple-link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
     <div class="cover__overlay">
     <h2 class="cover__title">До Байкала «на собаках»</h2>
     <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
       электричках.</p>
       </div>
-  </div>
+  </a>
   <footer class="footer">
     <ul class="footer__links">
-      <li class="footer__link">Карты</li><!--todo links-->
-      <li class="footer__link">Погода</li>
-      <li class="footer__link">Расписание</li>
-      <li class="footer__link">Календарь</li>
-      <li class="footer__link">Путешествия</li>
+      <li class="footer__link"><a class="simple-link" href="https://yandex.ru/maps">Карты</a></li><!--todo links-->
+      <li class="footer__link"><a class="simple-link" href="https://yandex.ru/pogoda">Погода</a></li>
+      <li class="footer__link"><a class="simple-link" href="https://rasp.yandex.ru">Расписание</a></li>
+      <li class="footer__link"><a class="simple-link" href="https://calendar.yandex.ru">Календарь</a></li>
+      <li class="footer__link"><a class="simple-link" href="https://travel.yandex.ru">Путешествия</a></li>
     </ul>
     <p class="footer__copyright">© 2022. Ekaterina</p>
   </footer>
-</div>
 </body>
 </html>

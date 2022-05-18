@@ -2,17 +2,22 @@
 @import url("../vendor/normalize.css");
 
 @import url("../blocks/page/page.css");
-@import url("../blocks/page/__title/header__title.css");
-@import url("../blocks/page/__subtitle/header__subtitle.css");
+@import url("../blocks/page/__title/page__title.css");
+@import url("../blocks/page/__subtitle/page__subtitle.css");
 
-@import url("../blocks/topbar/topbar.css");
-@import url("../blocks/topbar/__lang/topbar__lang.css");
-@import url("../blocks/topbar/__lang-link/topbar__lang-link.css");
-@import url("../blocks/topbar/__lang-link/_active/topbar__lang-link_active.css");
+@import url("../blocks/simple-link/simple-link.css");
+
+@import url("../blocks/top-bar/top-bar.css");
+@import url("../blocks/top-bar/__logo/top-bar__logo.css");
+@import url("../blocks/top-bar/__lang/top-bar__lang.css");
+@import url("../blocks/top-bar/__lang-link/top-bar__lang-link.css");
+@import url("../blocks/top-bar/__lang-link/_active/top-bar__lang-link_active.css");
 
 
 @import url("../blocks/illustration/illustration.css");
 @import url("../blocks/illustration/__caption/illustration__caption.css");
+@import url("../blocks/illustration/__image/illustration__image.css");
+
 
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__title/intro__title.css");
@@ -45,3 +50,4 @@
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");

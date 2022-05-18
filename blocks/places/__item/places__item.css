@@ -3,9 +3,29 @@
   grid-template-columns: min-content 1fr;
   column-gap: 40px;
   row-gap: 48px;
-  margin-bottom: 80px;
+  grid-auto-flow: row;
 }
 
-.places__item:last-child {
-  margin-bottom: 92px;
+@media screen and (max-width: 1024px){
+  .places__item {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .places__item {
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .places__item {
+    grid-template-columns: calc(100vw - 32px);
+  }
+}
+
+@media screen and (max-width: 320px){
+  .places__item {
+    row-gap: 32px;
+  }
 }
