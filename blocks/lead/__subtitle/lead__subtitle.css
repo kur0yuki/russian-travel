@@ -1,4 +1,4 @@
-.content__subtitle {
+.lead__subtitle {
   margin: 32px 0 64px;
   font-weight: 400;
   font-size: 1.8rem;
@@ -9,8 +9,9 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 768px){
-  .content__subtitle {
+@media screen and (max-width: 320px){
+  .lead__subtitle {
     font-size: 1rem;
+    margin: 16px 0 40px;
   }
 }
