@@ -1,4 +1,4 @@
-.page__subtitle {
+.content__subtitle {
   margin: 32px 0 64px;
   font-weight: 400;
   font-size: 1.8rem;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 768px){
-  .page__subtitle {
+  .content__subtitle {
     font-size: 1rem;
   }
 }

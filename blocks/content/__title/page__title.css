@@ -1,4 +1,4 @@
-.page__title {
+.content__title {
   margin: 56px 0 0;
   font-weight: 900;
   font-size: 6rem;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 768px){
-  .page__title {
+  .content__title {
     font-size: 2.5rem;
   }
 }
