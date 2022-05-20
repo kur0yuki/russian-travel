@@ -9,7 +9,7 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 460px){
   .lead__subtitle {
     font-size: 1rem;
     margin: 16px 0 40px;

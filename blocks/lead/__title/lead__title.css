@@ -10,7 +10,14 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 740px){
+  .lead__title {
+    font-size: 4rem;
+  }
+}
+
+
+@media screen and (max-width: 460px){
   .lead__title {
     font-size: 2.5rem;
   }
